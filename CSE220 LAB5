@@ -1,0 +1,49 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNGwifpkYsf8CC9HTEKDmrX",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/maliiha/cse220/blob/main/CSE220%20LAB5\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "1Q3_DT2GGkqL"
+      },
+      "outputs": [],
+      "source": [
+        "class Stack:\n",
+        "  def __init__(self,input):\n",
+        "    self.input=input\n",
+        "    self.pointer=-1\n",
+        "    self.stack=[0]*len(input)\n",
+        "  def peek(self):\n",
+        "    return self.stack[self.pointer]\n",
+        "  def push(self,number):\n",
+        "    "
+      ]
+    }
+  ]
+}
